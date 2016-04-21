@@ -2,39 +2,42 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>方式</title>
   <style>
-    h1{
-      font-family:'黑体','宋体';
-      font-size:2em;
-      font-style:normal;
-      font-weight:bold;
-      font:bold 3em simsun;
-      color:#ffff;
-      background-color: #eee;
-      text-shadow:1px 1px 23px #000;
+    .clearfix:after{
+      content:"";
+      display:block;
+      clear:both;
+      width:10px;
+      height:10px;
+      font-size: 10px;
     }
-    p{
-      font:lem simsun;
-      padding:10px 40px;
-      margin-top:0.5em;
-      margin-bottom:2em;
-      line-height:1.5em;
-      word-spacing:10px;
-      letter-spacing:2px;
+    .menu{
+     background-color: #038EDC;
+      height:30px;
     }
-    p:first-letter {
+    .menu li{
+      list-style-type:none;
       float:left;
-      font-size:40px;
-      font-weight:bold;
-      line-height:1;
+      padding: 0px 10px;
+      margin: 5px 0;
+    }
+    .menu li a:link{
+      color:#000;
+      padding:20px;
+    }
+    .menu li a:hover{
+         color: #000;
+    }
   </style>
 </head>
 <body>
-  <h1>播求</h1>
-  <p>播求 ( 英文名：Buakaw Banchamek，本名：颂巴万柴明；1982年5月8日—)，泰国素林府人，泰国次中量级泰拳运动员，在擂台上播求以犀利的膝法、灵活有力的扫腿和正蹬、毒蛇吐信般的拳法技惊四座。播求是2届k-1世界冠军，他泰拳战绩为：420战，370胜，45负，5平(到2014年8月的比赛累计共有58场KO对手)，只有1次被日本佐藤嘉洋KO，日本媒体称播求为史上最强之男。2014年10月11日，K-1世界MAX（70KG）冠军赛，播求无故退赛，引起了广泛关注与震动。</p>
-  <p>播求的父亲是一位泰国职业泰拳手，在父亲的影响下，播求在很小的时候也喜欢上了泰拳，8岁起就开始了泰拳训练，13岁便进入波帕姆俱乐部接受正规的泰拳训练，一直在刻苦训练的播求在少年时期就已经在泰拳擂台上崭露头角，播求获得了无数荣誉和头衔，其拳迷遍布世界各地，是当今泰拳界最有影响力的王牌人物之一。
-
-</p>
+  <ul class="menu clearfix">
+  <li><a href="#">首页</a></li>
+  <li><a href="#">新闻</a></li>
+  <li><a href="#">通知</a></li>
+  <li><a href="#">联系</a></li>
+  <li><a href="#">关于</a></li>
+  </ul>
 </body>
 </html>
